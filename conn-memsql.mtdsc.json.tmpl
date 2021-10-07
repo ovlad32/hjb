@@ -1,0 +1,7 @@
+{
+    "driver":"mysql",
+    "connection-string":"<user>:<pwd>@tcp(<host>:3306)/",
+    "column-meta-query":"select COLUMN_NAME, ORDINAL_POSITION, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA=? AND TABLE_NAME=?",
+    "db-identifier-quote-string":"`",
+    "one-row-query-template":"select * from (%s) as t limit 1"
+}
