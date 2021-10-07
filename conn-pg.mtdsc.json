@@ -1,7 +1,0 @@
-{
-    "driver":"postgres",
-    "connection-string":"postgres://sqlreader:2Petabytes@pg.aws.io-tahoe.com/postgres",
-    "column-meta-query":"SELECT COLUMN_NAME, ORDINAL_POSITION, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA=lower($1) AND TABLE_NAME=lower($2)",
-    "db-identifier-quote-string":"\"",
-    "one-row-query-template":"select * from (%s) as t limit 1"
-}
