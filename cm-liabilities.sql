@@ -1,0 +1,1 @@
+select * from CRA.LIABILITIES where informer_code = '999-83-7009'  

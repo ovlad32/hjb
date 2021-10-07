@@ -1,0 +1,174 @@
+[{
+        "tag":"cra-lake",
+        "database-name": "oracle-aws",
+        "schema-name": "CRA",
+        "table-name": "LIABILITIES",
+        "r-dump-file": "/Dev/data.ge/HXE.CRA.LIABILITIES.dat",
+        "r-dump-file-column-separator": "0x7",
+        "r-db-desc-file": "conn-memsql.mtdsc.json",
+        "db-desc-file": "conn-pg.mtdsc.json",
+        "db-query-file": "cm-liabilities.sql",
+        "stop-words":"lake,y,n,0,0.0,0.00,1,1.0,1.00",
+        "columns": []
+    },
+    {
+        "tag":"mt-base-2",
+        "database-name": "pg",
+        "schema-name": "MT",
+        "table-name": "CONTRACTS",
+        "db-desc-file": "conn-pg.mtdsc.json",
+        "db-query-file": "cm-contracts.sql",
+        "columns": []
+     },
+     {
+        "tag":"mt-base-1",
+        "database-name": "pg",
+        "schema-name": "MT",
+        "table-name": "CONTRACTS",
+        "db-desc-file": "conn-pg.mtdsc.json",
+        "db-query-file": "cm-contracts.sql",
+        "columns": []
+     },
+    {
+        "tag":"mt-base",
+        "database-name": "oracle-aws",
+        "schema-name": "MT",
+        "table-name": "CONTRACTS",
+        "r-dump-file": "/Dev/data.ge/HXE.MT.CONTRACTS.dat",
+        "r-dump-file-column-separator": "0x7",
+        "r-db-desc-file": "conn-memsql.mtdsc.json",
+        "db-desc-file": "conn-pg.mtdsc.json",
+        "db-query-file": "cm-contracts.sql",
+        "stop-words-1":"base,y,n,0,0.0,0.00,1,1.0,1.00,gbp,chf,jpy,usd,cad,eur",
+        "stop-words":"base,y,n,0,0.0,0.00,1,1.0,1.00,gbp,chf,jpy,usd,cad,eur",
+        "columns": []
+    },
+    {
+        "tag":"grp1-base",
+        "database-name": "memsql-aws",
+        "schema-name": "GE_P2_GRP01_DST01",
+        "table-name": "AP_INVOICES_ALL",
+        "db-desc-file": "conn-memsql.mtdsc.json",
+        "db-query-file": "grp1-invoices.sql",
+        "columns": []
+    },
+    {
+        "tag":"grp1-lake",
+        "database-name": "memsql-aws",
+        "schema-name": "GE_P2_GRP01_DST01",
+        "table-name": "GL_ATTRIBUTE_MULTI",
+        "db-desc-file": "conn-memsql.mtdsc.json",
+        "db-query-file": "grp1-attribute-multi.sql",
+        "columns": [ 
+	{
+            "name": "A01",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+	{
+            "name": "A02",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+	{
+            "name": "A03",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+	{
+            "name": "A04",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+	{
+            "name": "A05",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+	{
+            "name": "A06",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A07",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A13",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A16",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A17",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A18",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A19",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A25",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A26",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A27",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A28",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A29",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": ""
+        },
+        {
+            "name": "A30",
+            "data-type": "text",
+            "fusion-separator": "|",
+            "leading-char": "0"
+        }
+
+    ]
+    }
+]

@@ -1,0 +1,1 @@
+select * from MT.CONTRACTS t 

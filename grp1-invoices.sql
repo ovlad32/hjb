@@ -1,0 +1,1 @@
+select * from GE_P2_GRP01_DST01.AP_INVOICES_ALL/* where org_id = '887' */

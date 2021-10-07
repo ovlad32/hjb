@@ -1,0 +1,8 @@
+{
+	"sqlite-conn-string":"file:./hjb.db3?_journal_mode=WAL&cache=private&_vacuum=none",
+	"show-caller-in-log": true,
+	"aggregation-merge-thread-count":10,
+	"aggregation-persisting-thread-count":1,
+	"aggregation-persisting-batch-size":100,
+	"aggregation-bs-cache-size":10000
+}
